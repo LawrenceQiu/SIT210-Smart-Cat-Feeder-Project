@@ -6,7 +6,7 @@ Tkinter GUI that:
  - Reads RFID tags via PiicoDev
  - For an authorized tag, GETs weight from Arduino over HTTP
  - Dispenses food via PiicoDev Servo if weight < threshold
- - Manages authorized/unauthorized lists and logging
+ - Manages authorized/unauthorized lists and logging of feed data
 """
 
 import tkinter as tk
